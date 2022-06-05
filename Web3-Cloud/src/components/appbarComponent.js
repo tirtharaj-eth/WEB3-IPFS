@@ -4,6 +4,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import AppBar from "@material-ui/core/AppBar";
 import Btn from "./buttonComponent"
 import Btn2 from "./button2Component"
+// this is a appbar component.
 const Appbar = () => {
 return (
 	<div className="App-bar">
