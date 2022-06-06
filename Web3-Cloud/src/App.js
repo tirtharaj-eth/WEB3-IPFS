@@ -1,4 +1,3 @@
-// import logo from './beluga2.jpg';
 import './App.css';
 
 import ParticleBackground from './components/particleComponent';
