@@ -1,13 +1,13 @@
-*{
-  
+* {
+
   background-color: black;
-  
+
 }
 
 .App {
   text-align: center;
 
- 
+
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
@@ -31,71 +31,77 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 @keyframes pulse {
-  from { box-shadow:0px 0px 10px 3px #03d1e0; }
-  to { box-shadow:0px 0px 20px 5px #0ce6e6; }
+  from {
+    box-shadow: 0px 0px 10px 3px #03d1e0;
+  }
+
+  to {
+    box-shadow: 0px 0px 20px 5px #0ce6e6;
+  }
 }
- 
 
 
-.App-heading1{
 
-  text-align : center;
+.App-heading1 {
+
+  text-align: center;
   size: 200vh;
   color: white;
-  
+
 
 
   background-color: #05e86b;
-  animation:pulse 1s infinite alternate;
-  
+  animation: pulse 1s infinite alternate;
+
 
 
 }
 
-.btn1{
+.btn1 {
   color: rgb(248, 247, 247);
   font-weight: bold;
   background-color: rgb(26, 219, 230);
-   position : relative; 
+  position: relative;
   border: none;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 2vh;
   margin-right: 1rem;
   height: 2rem;
-  width : 5rem;
- 
- 
-  
+  width: 5rem;
+
+
+
   border-radius: 10%;
-  animation:pulse 1s infinite alternate;
+  animation: pulse 1s infinite alternate;
 }
 
-.partcle{
+.partcle {
   height: fit-content;
 }
 
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.toolbar{
-  color:#07fcef;
+.toolbar {
+  color: #07fcef;
   background-color: rgb(0, 0, 0)
- 
 }
-
